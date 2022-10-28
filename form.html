@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <main>
+        <h1>Week 4 Assignment</h1>
+        <p>This assignment is all about using of form elements and attributes in different scenerios.</p>
+        <div class="form-detail">
+            <form action="/" autocomplete="off" method="post" novalidate target="_blank">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" placeholder="Enter your full name" size="30" autofocus  required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email address" required><br>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password"  placeholder="password" maxlength="12" required><br>
+                    <label for="date">Date of Birth:</label>
+                    <input type="date" name="date" id="date" max="24-10-2021"><br>
+                    <label for="phone">Enter a phone number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+234-703-678-4576" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+                    <div class="gender">
+                        <label for="gender" id="gen">Gender:</label>
+                        <div class="genda">
+                            <label for="male">Male:</label>
+                            <input type="radio" name="gender" id="male">
+                            <label for="female" id="fmale">Female:</label>
+                            <input type="radio" name="gender" id="female">
+                        </div>
+                    </div>
+                </fieldset><br>
+                <div class="optionInfo">
+                    <label for="color">What is your favorite color:</label>
+                    <input type="color" id="color" name="favcolor" value="#cd0056"><br>
+                    <div class="pets">
+                        <label for="pets">Choose your desired pet:</label>
+                        <select name="pets" id="pets">
+                            <option value="cat">Cat</option>
+                            <option value="dog">Dog</option>
+                            <option value="rabbit">Rabbit</option>
+                            <option value="parrot">Parrot</option>
+                        </select>
+                    </div><br>
+                    <div class="hobbies">
+                        <input list="hobbies" name="hobby">
+                        <datalist id="hobbies">
+                            <option value="Singing">
+                            <option value="Dancing">
+                            <option value="Reading">
+                            <option value="Story Telling">
+                            <option value="Coding">
+                            <option value="Carving">
+                            <option value="Writing">
+                        </datalist>
+                        <input type="submit" value="Submit" onclick="alert('Successful submission')">
+                    </div>
+                </div>
+            </form>
+    
+            <form action="/" target="_parent" class="form2">
+                <input type="image" src="https://media.istockphoto.com/photos/cars-in-rush-hour-with-traffic-at-dawn-picture-id155287967?k=20&m=155287967&s=612x612&w=0&h=-Je7s2KV_SGZ_Rn4EPeppMTYfPNvFZqu7M1mNa-gN5k=" alt="Submit"  id="image"><br>
+                <label for="files">Select file:</label>
+                <input type="file" id="files" name="myfiles"><br>
+                <label for="appt">Select appropriate time to study:</label>
+                <input type="time" id="appt" name="appt"><br>
+                <label for="webpage">Add your desired webpage:</label>
+                <input type="url" id="webpage" name="webpage" placeholder="Enter your desired url"><br>
+                <div class="sugest">
+                    <label for="suggest">How do you suggest we improve:</label>
+                    <textarea placeholder="Write your suggestion" rows="10" cols="30" ></textarea>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

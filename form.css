@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    text-align: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1, p {
+    padding-top: 20px;
+}
+.form-detail{
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+fieldset{
+    width: 500px;
+    height: 290px;
+    text-align: left;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+legend {
+    font-weight: 700;
+}
+.optionInfo {
+    text-align: left;
+    padding: 5px 20px;
+}
+label {
+    margin-top: 20px;
+    font-weight: 500;
+}
+input {
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+#fullName {
+    margin-left: 110px;
+}
+#email {
+    margin-left: 144px;
+}
+#password {
+    margin-left: 115px;
+}
+#date {
+    margin-left: 90px;
+}
+#phone{
+    margin-left: 20px;
+}
+.gender {
+    display: inline-flex;
+    margin-top: 2px;
+}
+#gen {
+    position: relative;
+    margin-top: 5px;
+}
+.genda{
+    margin-left: 132px;
+    margin-top: -2px;
+    font-size:13px;
+    
+}
+#male {
+    position: relative;
+    top: 3px;
+}
+#fmale {
+    margin-left: 5px;
+}
+#female{
+    position: relative;
+    top: 3px;
+}
+select {
+    width: 80px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.pets {
+    margin-top: 10px;
+}
+.form2 {
+    margin-left: 30px;
+    width:550px;
+    text-align: left;
+    padding: 5px;
+}
+#image {
+    border: none;
+    width: 80px;
+    border-radius: 10px;
+}
+#files {
+    border: none;
+    margin-left: 170px;
+}
+#appt {
+    margin-left: 12px;
+}
+#webpage {
+    margin-left:52px;
+}
+.sugest {
+    display: flex;
+    width:500px;
+    margin-top: 4px;
+}
+textarea {
+    margin-left: 14px;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
